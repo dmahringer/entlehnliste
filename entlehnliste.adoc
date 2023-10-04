@@ -1,0 +1,24 @@
+:stylesheet: custom-style.css
+
+# Entlehnliste
+
+Die Entlehnliste hat folgendermaßen Auszusehen.
+
+[option="header"]
+|====
+| Gerät Nr | Zubehör (Stativ, spez. Kabel,...) | Entlehner*in + Klasse | Entlehnung Datum | Unterschrift Entlehner*in | Paraphe Lehrkraft | Rückgabe geplant | Rückgabe tatsächlich | Unterschrift Entlehner*in | Paraphe Lehrkraft | Anmerkungen
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+
+| [options="cols=12"]
+| [cols="20,20,20,20,20,20,20,20,20,20,20"]
+
+|====
