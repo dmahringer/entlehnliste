@@ -1,0 +1,12 @@
+@startuml
+skinparam actorStyle awesome
+:Lehrkraft: --> (Einloggen)
+:Schüler: --> (Emailadresse)
+(Emailadresse) .> (Benachrichtigungen)
+(Einloggen) --> (Klasse wählen)
+(Klasse wählen) --> (Gerät wählen)
+(Klasse wählen) .> (Daten der Schüler werden automatisch generiert)
+(Emailadresse) ..> (Daten der Schüler werden automatisch generiert)
+:Lehrkraft: --> (Zettel ausdrucken)
+
+@enduml
