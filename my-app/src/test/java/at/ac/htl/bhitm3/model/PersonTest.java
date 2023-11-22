@@ -21,6 +21,11 @@ public class PersonTest {
         person.setName("John");
         assertEquals("John", person.getName());
     }
+    @Test
+    public void given_when_surname_is_Doe() {
+        person.setSurname("Doe");
+        assertEquals("Doe", person.getSurname());
+    }
 
     @Test
     public void given_person_when_address_is_address1() {

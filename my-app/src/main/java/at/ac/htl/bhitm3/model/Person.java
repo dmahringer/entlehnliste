@@ -1,12 +1,24 @@
 package at.ac.htl.bhitm3.model;
 
 public class Person {
+    private String name;
+    private String surname;
 
-    public void setName(String string) {
+
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public Object getName() {
-        return null;
+    public String getName() {
+        return name;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getSurname() {
+        return surname;
     }
 
 }
