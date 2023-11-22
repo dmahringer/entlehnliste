@@ -6,7 +6,7 @@ import java.util.List;
 public class School {
 
     List<SchoolClass> classes = new LinkedList<>();
-
+    List <Teacher> teachers = new LinkedList<>();
 
     public List<SchoolClass> getSchoolClasses() {
         return classes;
@@ -19,5 +19,17 @@ public class School {
     public void addSchooolClass(SchoolClass schoolClass) {
         this.classes.add(schoolClass);
     }
+
+    public List<Teacher> getTeacher() {
+        return teachers;
+    }
+
+    public static Teacher createTeacher() {
+        return new Teacher();
+    }
+
+    public void addTeacher(Teacher teacher) {
+        this.teachers.add(teacher);
+    }
 
 }

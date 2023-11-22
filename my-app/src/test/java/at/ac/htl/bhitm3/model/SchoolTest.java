@@ -33,4 +33,11 @@ public class SchoolTest {
         assertEquals(1, school.getSchoolClasses().size());
     }
 
+    @Test
+    public void given_new_school_when_adding_teacher_then_result_is_added_teacher() {
+        var newTeacher = school.createTeacher();
+        school.addTeacher(newTeacher);
+        assertEquals(1, school.getTeacher().size());
+    }
+
 }
