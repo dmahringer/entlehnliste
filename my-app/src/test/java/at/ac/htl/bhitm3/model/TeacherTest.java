@@ -22,6 +22,6 @@ public class TeacherTest {
     @Test
     public void given_salary_from_teacher_must_be_more_then_zero() {
         teacher.setSalary(2000);
-        assertEquals(2000, teacher.getName());
+        assertEquals(2000, teacher.getSalary());
     }
 }
