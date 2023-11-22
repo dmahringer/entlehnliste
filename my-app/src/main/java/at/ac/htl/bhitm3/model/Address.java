@@ -28,15 +28,15 @@ public class Address {
     }
 
     public Object getHouseNumber() {
-        return null;
+        return this.houseNumber;
     }
 
     public Object getPLZ() {
-        return null;
+        return this.plz;
     }
 
     public Object getCity() {
-        return null;
+        return this.city;
     }
 
 }
