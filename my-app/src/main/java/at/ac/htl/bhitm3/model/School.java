@@ -30,6 +30,6 @@ public class School {
 
     public void addTeacher(Teacher teacher) {
         this.teachers.add(teacher);
-    }
+    }
 
 }

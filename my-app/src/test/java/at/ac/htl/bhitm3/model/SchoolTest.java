@@ -38,6 +38,6 @@ public class SchoolTest {
         var newTeacher = school.createTeacher();
         school.addTeacher(newTeacher);
         assertEquals(1, school.getTeacher().size());
-    }
+    }
 
 }
