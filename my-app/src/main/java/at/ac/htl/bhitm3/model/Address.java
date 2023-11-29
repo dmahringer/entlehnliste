@@ -38,5 +38,4 @@ public class Address {
     public Object getCity() {
         return this.city;
     }
-
 }
