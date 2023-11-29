@@ -23,7 +23,7 @@ public class StudentTest {
 
     @Test 
     public void given_studentid_is_not_null(){
-        student.setName("IT29182");
-        assertEquals("IT29182",student.getName());
+        student.setStudentID("IT29182");
+        assertEquals("IT29182",student.getStudentID());
     }
 }
