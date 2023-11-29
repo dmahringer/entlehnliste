@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: at.ac.htl.bhitm3.model.PersonTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in at.ac.htl.bhitm3.model.PersonTest
-given_person_when_name_is_John(at.ac.htl.bhitm3.model.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.AssertionError: expected:<John> but was:<null>
-	at at.ac.htl.bhitm3.model.PersonTest.given_person_when_name_is_John(PersonTest.java:20)
-
