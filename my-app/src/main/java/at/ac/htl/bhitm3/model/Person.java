@@ -1,8 +1,11 @@
 package at.ac.htl.bhitm3.model;
 
+import java.util.Date;
+
 public class Person {
     private String name;
     private String surname;
+    private Date birthday;
 
 
     public void setName(String name) {
