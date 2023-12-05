@@ -3,6 +3,7 @@ package at.ac.htl.bhitm3.model;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 public class SchoolClass {
 
@@ -16,13 +17,22 @@ public class SchoolClass {
         students.remove(student);
     }
 
+    // public Student getStudent(Student student) {
+    //     students.get(student);
+    //     if (student != null && students.get(student) != null && students.get(student).equals(student.getStudentID())) {
+    //         return student;
+    //     }
+    //     return null;
+    // }
+
     public Student getStudent(Student student) {
-        students.get(student);
-        if (student != null && students.get(student) != null && students.get(student).equals(student.getStudentID())) {
-            return student;
+    for (Map.Entry<Student, String> entry : students.entrySet()) {
+        if (entry.getKey().equals(student)) {
+            return entry.getKey();
         }
-        return null;
     }
+    return null;
+}
 
     public List<String> getStudents() {
         return new LinkedList<>(students.values());
