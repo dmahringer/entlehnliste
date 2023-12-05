@@ -37,6 +37,5 @@ public class PersonTest {
         assertEquals(14, address.getHouseNumber());
         assertEquals(4060, address.getPLZ());
         assertEquals("Leonding", address.getCity());
-
     }
 }
